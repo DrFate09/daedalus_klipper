@@ -10,7 +10,7 @@ https://github.com/Duet3D/RepRapFirmware/blob/3.4-dev/src/Config/Pins_Duet3_MB6H
 Railcore/Duet 3 6HC flashing guide:   
 https://github.com/ibash/railcore-klipper
 
-Bossac firmware flashing command (from Pi):   
+Bossac firmware flashing command (from Raspberry Pi):   
 ```/home/pi/klipper/lib/bossac/bin/bossac --port=/dev/serial/by-id/usb-03eb_6124-if00 -b -U -e -w -v /home/pi/klipper/out/klipper.bin```
 
 -----------
