@@ -14,6 +14,9 @@ Bossac firmware flashing command (from Raspberry Pi):
 ```/home/pi/klipper/lib/bossac/bin/bossac --port=/dev/serial/by-id/usb-03eb_6124-if00 -b -U -e -w -v /home/pi/klipper/out/klipper.bin```
 (must first compile klipper.bin and attempt a flash with ```make flash``` to compile Bossac)
 
+Klipper PanelDue configuration docs:
+https://github.com/Arksine/moonraker/blob/master/docs/configuration.md#paneldue
+
 -----------
 
 Adafruit USB Isolator: https://a.co/d/ivCMPR9   
@@ -21,3 +24,4 @@ Adafruit USB Isolator: https://a.co/d/ivCMPR9
 
 Serial Converter Module CP2102 USB to TTL: https://a.co/d/d1dmJC9   
 (Connect PanelDue display to Raspberry Pi)
+(Configuration docs:
