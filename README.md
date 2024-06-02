@@ -14,11 +14,14 @@ Bossac firmware flashing command (from Raspberry Pi):
 ```/home/pi/klipper/lib/bossac/bin/bossac --port=/dev/serial/by-id/usb-03eb_6124-if00 -b -U -e -w -v /home/pi/klipper/out/klipper.bin```
 (must first compile klipper.bin and attempt a flash with ```make flash``` to compile Bossac)
 
-If the above method fails, use Bossa for Windows:
+If the above method fails, use Bossa for Windows:  
 https://docs.duet3d.com/User_manual/RepRapFirmware/Updating_firmware#all-other-duet-boards
 
-Klipper PanelDue configuration docs:
+Klipper PanelDue configuration docs:  
 https://github.com/Arksine/moonraker/blob/master/docs/configuration.md#paneldue
+
+Automatically mount a USB Stick and push all files to Moonraker plugin:  
+https://github.com/shiftingtech/Moonraker-loader
 
 -----------
 
