@@ -7,6 +7,10 @@ https://docs.duet3d.com/Duet3D_hardware/Duet_3_family/Duet_3_Mainboard_6HC_Hardw
 RepRap Firmware - Duet 3 6HC pinout:   
 https://github.com/Duet3D/RepRapFirmware/blob/3.4-dev/src/Config/Pins_Duet3_MB6HC.h
 
+-----------
+
+Duet 6HC Flashing:
+
 Railcore/Duet 3 6HC flashing guide:   
 https://github.com/ibash/railcore-klipper
 
@@ -17,13 +21,26 @@ Bossac firmware flashing command (from Raspberry Pi):
 If the above method fails, use Bossa for Windows:  
 https://docs.duet3d.com/User_manual/RepRapFirmware/Updating_firmware#all-other-duet-boards
 
+-----------
+
+PanelDue Setup:
+
+PanelDue Klipper compatible firmware (downgrade to Release 1.24):   
+https://github.com/Duet3D/PanelDueFirmware/releases/tag/1.24
+
 Klipper PanelDue configuration docs:  
 https://github.com/Arksine/moonraker/blob/master/docs/configuration.md#paneldue
+
+-----------
+
+Local USB GCODE upload:
 
 Automatically mount a USB Stick and push all files to Moonraker plugin:  
 https://github.com/shiftingtech/Moonraker-loader
 
 -----------
+
+Hardware add-ons:
 
 Adafruit USB Isolator: https://a.co/d/ivCMPR9   
 (Prevents ground loops between Raspberry Pi and Duet 6HC)
