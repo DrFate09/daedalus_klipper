@@ -33,14 +33,14 @@ https://github.com/Arksine/moonraker/blob/master/docs/configuration.md#paneldue
 
 -----------
 
-Local USB GCODE upload:
+Local USB GCODE Upload:
 
 Automatically mount a USB Stick and push all files to Moonraker plugin:  
 https://github.com/shiftingtech/Moonraker-loader
 
 -----------
 
-Hardware add-ons:
+Hardware Add-Ons:
 
 Adafruit USB Isolator: https://a.co/d/ivCMPR9   
 (Prevents ground loops between Raspberry Pi and Duet 6HC)
