@@ -4,12 +4,12 @@
 # 1.  Install OpenOCD on the Pi: openocd.org.
 # 2.  Power off and disconnect everything from the board you will be flashing.
 # 3.  Power off and disconnect everything from the Pi.
-# 4.  Connect GPIO pin 25 on the Pi to the SWCLK pin on the board.
-# 5.  Connect GPIO pin 24 on the Pi to the SWDIO pin on the board.
-# 6.  Connect GPIO pin 18 on the Pi to the SRST pin on the board.
-# 7.  Connect a ground pin on the Pi to ground on the board.
+# 4.  Connect GPIO pin 25 on the Pi to the SWCLK (purple) pin on the board.
+# 5.  Connect GPIO pin 24 on the Pi to the SWDIO (blue) pin on the board.
+# 6.  Connect GPIO pin 18 on the Pi to the SRST (white) pin on the board.
+# 7.  Connect a ground (black) pin on the Pi to ground on the board.
 # 8.  Power on the Pi.
-# 9.  Power on the board (you may do this by supplying power from the Pi).
+# 9.  Power on the board (you may do this by supplying power from the Pi (grey)).
 # 10. Build klipper by running make.
 # 11. On the Pi, make this script executable and run it as root.
 
