@@ -7,9 +7,9 @@ printer-[0-9]*_[0-9]*.cfg
 *.bkp
 *.csv
 *.zip
-~/printer_data/config/moonraker.conf
-~/printer_data/config/moonraker.conf.backup
-~/printer_data/config/moonraker-obico.cfg
-~/printer_data/config/mobileraker.conf
-~/printer_data/config/octoapp.conf
-~/printer_data/config/octoapp-system.cfg
+printer_data/config/moonraker.conf
+printer_data/config/moonraker.conf.backup
+printer_data/config/moonraker-obico.cfg
+printer_data/config/mobileraker.conf
+printer_data/config/octoapp.conf
+printer_data/config/octoapp-system.cfg
