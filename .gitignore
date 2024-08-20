@@ -7,3 +7,8 @@ printer-[0-9]*_[0-9]*.cfg
 *.bkp
 *.csv
 *.zip
+/home/pi/printer_data/config/moonraker.conf
+/home/pi/printer_data/config/moonraker.conf.backup
+/home/pi/printer_data/config/mobileraker.conf
+/home/pi/printer_data/config/octoapp.conf
+/home/pi/printer_data/config/octoapp-system.conf
