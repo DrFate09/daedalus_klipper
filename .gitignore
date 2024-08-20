@@ -9,6 +9,7 @@ printer-[0-9]*_[0-9]*.cfg
 *.zip
 /home/pi/printer_data/config/moonraker.conf
 /home/pi/printer_data/config/moonraker.conf.backup
+/home/pi/printer_data/config/moonraker-obico.cfg
 /home/pi/printer_data/config/mobileraker.conf
 /home/pi/printer_data/config/octoapp.conf
-/home/pi/printer_data/config/octoapp-system.conf
+/home/pi/printer_data/config/octoapp-system.cfg
