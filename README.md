@@ -15,7 +15,7 @@ Railcore/Duet 3 6HC flashing guide:
 https://github.com/ibash/railcore-klipper
 
 Bossac firmware flashing command (from Raspberry Pi):   
-```/home/pi/klipper/lib/bossac/bin/bossac --port=/dev/serial/by-id/usb-03eb_6124-if00 -b -U -e -w -v /home/pi/klipper/out/klipper.bin```
+```~/BOSSA/bin/bossac --port=/dev/serial/by-id/usb-03eb_6124-if00 -b -U -e -w -v ~/klipper/out/klipper.bin```
 (must first compile klipper.bin and attempt a flash with ```make flash``` to compile Bossac)
 
 If the above method fails, use Bossa for Windows:  
