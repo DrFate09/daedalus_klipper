@@ -14,6 +14,14 @@ Duet 6HC Flashing:
 Railcore/Duet 3 6HC flashing guide:   
 https://github.com/ibash/railcore-klipper
 
+Install Bossac:
+```
+git clone https://github.com/shumatech/BOSSA.git
+cd BOSSA
+make bossac
+sudo cp bin/bossac /usr/local/bin
+```
+
 Bossac firmware flashing command (from Raspberry Pi):   
 ```
 ~/BOSSA/bin/bossac --port=/dev/serial/by-id/usb-03eb_6124-if00 -b -U -e -w -v ~/klipper/out/klipper.bin
