@@ -18,6 +18,8 @@ Bossac firmware flashing command (from Raspberry Pi):
 ```~/BOSSA/bin/bossac --port=/dev/serial/by-id/usb-03eb_6124-if00 -b -U -e -w -v ~/klipper/out/klipper.bin```
 (must first compile klipper.bin and attempt a flash with ```make flash``` to compile Bossac)
 
+Enable CANbus (can0) by making menuconfig with 'USB to CAN bus bridge'.
+
 If the above method fails, use Bossa for Windows:  
 https://docs.duet3d.com/User_manual/RepRapFirmware/Updating_firmware#all-other-duet-boards
 
