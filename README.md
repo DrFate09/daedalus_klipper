@@ -14,7 +14,7 @@ Duet 6HC Flashing:
 Railcore/Duet 3 6HC flashing guide:   
 https://github.com/ibash/railcore-klipper
 
-Install Bossac:
+Install BOSSA:
 ```
 git clone https://github.com/shumatech/BOSSA.git
 cd BOSSA
